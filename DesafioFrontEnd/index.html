@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=UTF-8>
+	<title>Desafio FrontEnd</title>
+
+	<link rel="stylesheet" href="asset/css/estilo.css">
+	<script type="text/javascript" src="asset/js/datos.js"></script>
+
+</head>
+
+<body>
+
+	<div id="wrapper">
+		
+	  	<!-- Inicio del formulario //-->
+		<form id="formDesafio" action="">
+
+			<p>
+				<strong><h1>DESAFIO FRONTEND</h1></strong>
+				<div id="slogan">Grupo El Comercio</div>
+			</p>
+			<p>
+				Por favor ingrese un número entero en cada una de las siguientes casillas:
+			</p>
+			<p>
+				<label>casilla 1 :</label>
+				<input type="text" maxlength="1" size="3" id="fld1" name="fld1" onkeyup="Javascript:fValidarDatosPorCampo('fld1',1);return false;">
+			</p>
+			<p>
+				<label>casilla 2 :</label>
+				<input type="text" maxlength="1" size="3" id="fld2" name="fld2" onkeyup="Javascript:fValidarDatosPorCampo('fld2',2);return false;">
+			</p>
+			<p>
+				<label>casilla 3 :</label>
+				<input type="text" maxlength="1" size="3" id="fld3" name="fld3" onkeyup="Javascript:fValidarDatosPorCampo('fld3',3);return false;">
+			</p>
+			<p>
+				<label>casilla 4 :</label>
+				<input type="text" maxlength="1" size="3" id="fld4" name="fld4" onkeyup="Javascript:fValidarDatosPorCampo('fld4',4);return false;">
+			</p>
+			<p>
+				<label>casilla 5 :</label>
+				<input type="text" maxlength="1" size="3" id="fld5" name="fld5" onkeyup="Javascript:fValidarDatosPorCampo('fld5',5);return false;">
+			</p>
+			<p>
+				<label>casilla 6 :</label>
+				<input type="text" maxlength="1" size="3" id="fld6" name="fld6" onkeyup="Javascript:fValidarDatosPorCampo('fld6',6);return false;">
+			</p>
+			<p>
+				<label>casilla 7 :</label>
+				<input type="text" maxlength="1" size="3" id="fld7" name="fld7" onkeyup="Javascript:fValidarDatosPorCampo('fld7',7);return false;">
+			</p>
+			<p>
+				<label>casilla 8 :</label>
+				<input type="text" maxlength="1" size="3" id="fld8" name="fld8" onkeyup="Javascript:fValidarDatosPorCampo('fld8',8);return false;">
+			</p>
+			<p>
+				<label>casilla 9 :</label>
+				<input type="text" maxlength="1" size="3" id="fld9" name="fld9" onkeyup="Javascript:fValidarDatosPorCampo('fld9',9);return false;">
+			</p>
+
+	  		<!-- Inicio de botoneras del formulario //-->
+			<p>
+				<input type="button" value="Ordenar" onclick="Javascript:fOrdenarDatos();">
+				<input type="reset" value="Limpiar" onclick="Javascript:fLimpiar();">
+			</p>
+			<!-- Fin de botoneras del formulario //-->
+		
+		</form>
+	  	<!-- Fin del formulario //-->
+
+	  	<!-- Inicio de la Sección de Mensajes //-->
+		<div id="msjDatos">
+			
+		</div>
+	  	<!-- Fin de la Sección de Mensajes //-->
+	</div>
+
+</body>
+
+</html>

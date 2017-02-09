@@ -1,0 +1,21 @@
+body {
+	margin:0;
+	background-color: #ccc;
+	color:gray;
+	font-weight:none;
+}
+
+#wrapper {
+	width:400px;
+	margin:0 auto;
+	background-color:#ccc;
+}
+
+#slogan {
+	color:#00A0C1;
+}
+
+#msjDatos {
+	color:#CD4247;
+}
+
